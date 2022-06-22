@@ -18,5 +18,18 @@ def RigidexMatrix(coordinates, elements):
         A[ix_(indexElement,indexElement)] = A[ix_(indexElement,indexElement)] + Mele
     return A
 
+def gauss(n):
+    x = zeros(n,1)
+    w = x
+    m = (n+1)/2
+    for i in range(1,m+1):
+        pass
+
+
+def lado_derecho(ng,mode,coordenates,elements):
+    numberCoordenates = len(coordenates)
+    numberElements = len(elements)
+    A = zeros()
+
 #if __name__ == "__main__":
 #	print("I prefer to be a module")
